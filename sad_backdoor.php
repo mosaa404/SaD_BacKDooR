@@ -34,6 +34,7 @@
 		<h3>
 			My target is : <script>document.write(document.domain)</script><br>
 			<?php
+				echo 'Server IP :'.getHostByName(getHostName()).'<br>';
 				echo 'Operating System : '.php_uname('s').'<br>';
 				echo 'Release Name : '.php_uname('r').'<br>';
 				echo 'Version : '.php_uname('v').'<br>';
